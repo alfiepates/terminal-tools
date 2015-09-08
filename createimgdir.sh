@@ -3,6 +3,8 @@
 # license: CC0 1.0
 # createimgdir.sh
 # this script creates "img" directories for a folder of markdown (.md) files, ignoring other files.
+# usage:
+# sh ./createimgdir.sh
 
 mkdir -p img
 for file in $( ls ); do

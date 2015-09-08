@@ -3,6 +3,8 @@
 # license: CC0 1.0
 # createmdfiles.sh
 # this script creates markdown files from each line in the file $1.
+# usage:
+# $ sh ./createmdfiles.sh file.txt
 
 file=$1
 echo creating markdown files from $1
