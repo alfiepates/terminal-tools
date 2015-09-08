@@ -8,5 +8,6 @@ mkdir -p img
 for file in $( ls ); do
   if [ ${file: -3} == ".md" ]; then
     mkdir ./img/`basename $file .md`
+    echo created ./img/`basename $file .md`
   fi
 done
