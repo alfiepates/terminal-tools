@@ -1,6 +1,6 @@
 #!/bin/bash
 # alfiepates & SN4T4 2016
-# license: CC0 1.0
+# license: CC0 1.0 (createvm.sh was licensed under WTFPL)
 # createvmshasum.sh
 # this script is based on SN4T14's createvm.sh, which creates virtualbox VMs. the dirty mac address generator hack didn't work on OS X due to the lack of sha256sum, so i made it work with shasum instead. it's horrible.
 # usage:
